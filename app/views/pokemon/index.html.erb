@@ -1,0 +1,12 @@
+<table>
+  <% for pokemon in @pokemons.sort{|a,z| a <=> z} %>
+    <tr>
+      <td><h3><%= link_to h(pokemon.id), :action => 'show', :id => pokemon %></h3>
+	<p><%= h(pokemon.name) %></p>
+      </td>
+      <td>
+	      </td>
+    </tr>
+  <% end %>
+</table>
+<%= link_to 'New', :action => 'new'%><br />

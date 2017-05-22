@@ -1,0 +1,45 @@
+html,body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+a,a:visited{
+  color: inherit !important;
+  text-decoration: none;
+}
+.btn{
+  background-color: inherit;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#logo{
+  font-size: 1.2em;
+}
+.no-margin{
+  margin: 0px;
+}
+.be-blue{
+  background-color: #0032A2;
+}
+.be-red{
+  background-color: #FD112A;
+}
+.white{
+  color: #FFFFFF;
+}
+.large-padding{
+  padding: 8px 5px;
+}
+.field{
+  margin-top:1em;
+}
+.form-control{
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  width: 100%;
+  display: block;
+  padding: 10px 0px;
+  font-size:1.2em;
+}

@@ -1,0 +1,17 @@
+<%= form_for(@pokemon) do |f| %>
+  <% @pokemon.errors.full_messager.each do |message| %>
+  <div class="bew-red white">
+    * <%= message %>
+  </div>
+  <div class="field">
+    <%= f.text_field :name, placeholder: "Nombre" %>
+
+    <%= f.text_field :attack, placeholder: "Ataque" %>
+
+    <%= f.text_field :defense, placeholder: "Defensa" %>
+
+    <%= f.text_field :avatar_url, placeholder: "URL" %>
+  </div>
+
+  <%= link_to 'Cancel', :action => 'index'%><br />
+<%end%>
